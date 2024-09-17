@@ -1,11 +1,10 @@
 ## 1. Como você utiliza o Delta Lake no Azure Databricks para garantir a integridade dos dados?
 
-Para garantir que os dados estejam corretos e seguros com o Delta Lake no Azure Databricks, uso algumas técnicas chave. Primeiro, aplico transações ACID para manter a consistência dos dados. Também utilizo o controle de versionamento para rastrear e reverter mudanças se necessário. 
-Além disso, garanto que os dados estejam sempre no formato certo com o enforcement de esquemas e uso operações idempotentes para evitar duplicações e corrupção dos dados. Os recursos de auditoria ajudam a monitorar e manter a integridade dos dados em grande escala. Isso tudo faz com que o gerenciamento de dados seja confiável e seguro.
+Uso algumas técnicas chave. Primeiro, aplico transações ACID para manter a consistência dos dados. Também utilizo o controle de versionamento para rastrear e reverter mudanças se necessário. 
 
 ## 2. Quais são as vantagens do uso do Spark em comparação com outras tecnologias de processamento de dados?
 
-Spark é conhecido por ser rápido e flexível. Ele processa dados de forma eficiente porque mantém tudo na memória, o que acelera o trabalho. Pode lidar com vários tipos de dados e oferece uma interface única para fazer análises, aprendizado de máquina e processamento em tempo real. Isso o torna uma ferramenta poderosa para trabalhar com grandes volumes de dados e fazer análises complexas.
+Principal vantagem e ele ser rápido e flexível. Ele processa dados de forma eficiente porque mantém tudo na memória, o que acelera o trabalho. Pode lidar com vários tipos de dados e oferece uma interface única para fazer análises, aprendizado de máquina e processamento em tempo real.
 
 ## 3. Descreva um caso em que você precisou sincronizar dados entre diferentes sistemas.
 
@@ -41,7 +40,7 @@ Em um grande cliente de varejo, tínhamos dados provenientes de OMS e Linx. Os d
 
 ## 5. Como você garante a escalabilidade e a robustez da arquitetura de dados?
 
-Para garantir que a arquitetura de dados seja escalável, uso armazenamento e processamento distribuído, particionamento e otimização de consultas usando o SHUFFLE e AUTO OPTIMIZE. Isso ajuda a gerenciar grandes volumes de dados de forma eficiente. Para assegurar a robustez, mantenho a qualidade dos dados com transações ACID e configuro alertas para detectar problemas rapidamente. Sigo boas práticas de segurança e controle de acesso, e automatizo testes e o processo de deploy para evitar erros.
+Uso armazenamento e processamento distribuído, particionamento e otimização de consultas, uso o SHUFFLE e o AUTO OPTIMIZE. Isso ajuda a gerenciar grandes volumes de dados de forma eficiente. Para assegurar a robustez, trago novamente as transações ACID e configuro alertas para detectar problemas rapidamente. Tento seguir sempre boas práticas.
 
 ## 6. Como você implementa a criptografia de dados em repouso e em trânsito?
 
@@ -53,19 +52,19 @@ No Delta Live Tables (DLT), é possível criar códigos adicionais nos notebooks
 
 ## 8. Qual a importância do FinOps para a engenharia de dados?
 
-O FinOps é crucial para controlar e prever custos, otimizar recursos e garantir que o investimento em dados esteja alinhado com a estratégia e as metas da empresa.
+Controlar e prever custos, otimizar recursos e garantir que o investimento em dados esteja alinhado com a estratégia e as metas da empresa.
 
 ## 9. Como o DevOps ajuda o engenheiro de dados?
 
-O DevOps facilita o uso de pipelines CI/CD, o versionamento de código com integração do Git, a colaboração entre equipes e a automação de processos repetitivos.
+Uso de pipelines CI/CD, o versionamento de código com integração do Git, a colaboração entre equipes e a automação de processos repetitivos.
 
 ## 10. Como iniciamos um projeto de pipeline de dados?
 
-Começamos refinando as ações necessárias, definindo a entrega de valor, estabelecendo requisitos e identificando riscos.
+Começamos refinando as ações necessárias, identificando e definindo a entrega de valor, estabelecendo requisitos e identificando riscos.
 
 ## 11. Como realizar CI/CD em um pipeline de dados?
 
-Para realizar CI/CD em um pipeline de dados, automatizo processos que incluem testes, integração e deployment. Configuro o repositório de código, implemento a integração contínua (CI), a entrega contínua (CD), e monitoro e gerencio versões e rollbacks. É fundamental manter a documentação clara e atualizada.
+Automatizo processos que incluem testes, integração e deployment. Configuro o repositório de código, implemento a integração contínua (CI), a entrega contínua (CD), e monitoro e gerencio versões e rollbacks. Tento sempre manter a documentação clara e atualizada.
 
 ## 12. Quais ferramentas de orquestração você já trabalhou?
 
@@ -73,4 +72,4 @@ Trabalhei com Databricks, Azure Data Factory e Synapse Analytics.
 
 ## 13. Quais suas motivações para ser um engenheiro de dados?
 
-Trabalho com dados desde 2006, mas foquei em inteligência de dados a partir de 2017. O que me motiva é saber que meu trabalho automatiza processos demorados e caros, e que as informações geradas ajudam empresas a tomar decisões mais assertivas. Além disso, adoro tecnologia e tenho prazer em desenvolver códigos cada vez mais performáticos. Ver o impacto positivo das soluções que crio, reduzindo custos e ajudando no dia a dia das empresas, me estimula a sempre fazer o meu melhor.
+Trabalho com dados desde 2006, mas foquei em inteligência de dados a partir de 2017. O que me motiva é saber que meu trabalho automatiza processos demorados e caros, que as informações geradas ajudam empresas a tomar decisões mais assertivas sem achismo. Além disso, adoro tecnologia e tenho prazer em desenvolver códigos cada vez mais performáticos. Ver o impacto positivo das soluções que crio, reduzindo custos e ajudando no dia a dia das empresas, me estimula a sempre fazer o meu melhor.
