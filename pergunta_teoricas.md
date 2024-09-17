@@ -1,9 +1,3 @@
-Aqui está o texto formatado para um documento no GitHub:
-
----
-
-# Perguntas e Respostas
-
 ## 1. Como você utiliza o Delta Lake no Azure Databricks para garantir a integridade dos dados?
 
 Para garantir a integridade dos dados com o Delta Lake no Azure Databricks, utilizo transações ACID, controle de versionamento e enforcement de esquemas. Além disso, aproveito operações idempotentes, que permitem reprocessar dados ou executar a mesma operação múltiplas vezes sem causar duplicações ou corrupção dos dados. Os recursos de auditoria também ajudam a manter a consistência e a integridade dos dados em escala, tornando o processo de gerenciamento de dados altamente confiável e seguro.
