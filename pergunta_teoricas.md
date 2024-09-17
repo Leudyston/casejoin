@@ -17,9 +17,10 @@ Em um grande cliente de varejo, tínhamos dados provenientes de OMS e Linx. Os d
 - **Data Sources -> Azure Data Factory**: Utilizamos o Azure Data Factory para movimentar e integrar dados de diferentes fontes para um local centralizado.
 
 ### Armazenamento
-- **Dados Brutos e Dados Processados -> Azure Blob Storage**: O Blob Storage é econômico e adequado para armazenar dados não estruturados.
+- **Dados Brutos e Dados Processados -> Azure Blob Storage/Azure Data Lake Store**: O Blob Storage é econômico e adequado para armazenar dados não estruturados e Data Lake Store para dados estruturados.
 
 ### Processamento
+- **Databricks Notebooks**
 - **Delta Live Tables (DLT)**: Definimos e executamos pipelines ETL de forma simplificada e gerenciada. O DLT facilita a ingestão e transformação de dados, garantindo a qualidade com verificações e validações integradas.
 
 ### Análise de Dados
